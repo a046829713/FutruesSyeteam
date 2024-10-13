@@ -63,9 +63,9 @@ class DataTransformer():
         df.to_csv(f'MC_{history_file}')
 
 
-# DataTransformer().time_price_check( history_file = 'TC.F.CME.QG.HOT.csv',
-#             local_file = 'CME.QG HOT-Minute-Trade.txt')
+DataTransformer().time_price_check( history_file = 'TC.F.CME.QG.HOT.csv',
+            price= 20)
 
 
 
-DataTransformer().cut_off_MC_need(history_file='TC.F.CME.ES.HOT.csv',local_file='CME.ES HOT-Minute-Trade.txt')
+# DataTransformer().cut_off_MC_need(history_file='TC.F.CME.QG.HOT.csv',local_file='CME.QG HOT-Minute-Trade.txt')

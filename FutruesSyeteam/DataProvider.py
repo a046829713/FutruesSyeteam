@@ -176,5 +176,5 @@ class DataProvider():
 
 if __name__ == '__main__':
     app = DataProvider()
-    app.reload('TC.F.CME.ES.HOT')
-    # app.get_traget_symbol('ES')
+    app.reload('TC.F.CME.QG.HOT')
+    # app.get_traget_symbol('QG')
